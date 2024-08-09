@@ -1,0 +1,64 @@
+.card-wrapper {
+    width: 250px;
+    background: #9669cc;
+    box-shadow: 0px 10px 60px rgba(32, 56, 85, 0.15);
+    border-radius: 12px;
+  padding-top: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-color: rgb(216, 5, 5);
+
+  border: 7px solid rgb(71, 42, 143);
+}
+
+
+.card-header{
+
+    display:flex;
+    justify-content:space-between;
+   
+}
+.task-nr{
+background-color: #9c9c32;
+padding: 10PX;  
+text-align: right;
+border-radius: 12px; 
+}
+
+.card-header p {
+    margin:0px;
+    font-size: 12px;
+    line-height: 14px;
+
+}
+
+.badge{
+ background-color: #327b33;
+    padding: 10PX;
+    border-radius: 12px;  
+
+}
+
+.card-content{
+    text-align:left;
+    padding-top: 15px;
+}
+
+
+.card-foter{
+padding-top: 25px;
+font-size: small;
+text-align: right;
+  
+}
+  
+.card-foter p {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(70, 47, 19);
+    border: 0px;
+    text-align: right;
+}
+
